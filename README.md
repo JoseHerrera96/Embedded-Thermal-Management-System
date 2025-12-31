@@ -1,9 +1,5 @@
 # Embedded Thermal Management System
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Platform](https://img.shields.io/badge/platform-Arduino%20%7C%20STM32%20%7C%20PC-orange.svg)
-![Language](https://img.shields.io/badge/language-C%2B%2B-brightgreen.svg)
-
 A professional-grade thermal management controller for high-performance embedded processors. Implements real-world thermal control techniques used in CPU/GPU power management systems.
 
 ## 🎯 Project Overview
@@ -272,11 +268,6 @@ ADC/
 
 ---
 
-## 📜 License
-
-MIT License - See LICENSE file for details.
-
----
 
 ## 👤 Author
 **Jose Herrera**  
