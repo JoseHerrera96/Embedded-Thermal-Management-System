@@ -87,7 +87,7 @@ float ThermalManager::readTemperature() {
     uint16_t adcValue = hardware->readADC();
     
     // Convert ADC to voltage
-    float voltage = (adcValue / static_cast<float>(ADC_MAX)) * VREF;
+    float voltage = (adcValue / MAX) * VREF;
     
     // Calculate thermistor resistance from voltage divider
     // V_out = V_ref * (R_thermistor / (R_thermistor + R_series))
